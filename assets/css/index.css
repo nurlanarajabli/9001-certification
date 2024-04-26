@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'THICCCBOI', sans-serif;
+}
+
+#SectionOne {
+  width: 100%;
+  margin: 40px 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#SectionOne .firstContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 600px;
+
+}
+
+#SectionOne .firstContainer .writeArea {
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: auto;
+  flex-direction: column;
+  height: 400px;
+
+}
+#SectionOne .firstContainer .img {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+#SectionOne .firstContainer .img img {
+  width: 85%;
+}
+#SectionOne .firstContainer .writeArea h5 {
+  font-size: 13px;
+  font-family: "THICCCBOI", sans-serif;
+  color: rgb(52, 63, 82);
+  font-weight: 500;
+}
+#SectionOne .firstContainer .writeArea h1 {
+  font-size: 42px;
+  font-family: "THICCCBOI", sans-serif;
+  color: rgb(52, 63, 82);
+  font-weight: 700;
+}
+#SectionOne .firstContainer .writeArea p {
+  font-size: 20px;
+  font-family: "THICCCBOI", sans-serif;
+  color: rgb(33, 38, 48);
+  font-weight: 100;
+}
+
+.liner{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+}
+
+#SectionOne .firstContainer .writeArea  button {
+  width: 30%;
+  background-color: #252d6c;
+    padding: 5px 0;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+#SectionOne .firstContainer .writeArea  a {
+  font-size: 17px;
+  font-family: "THICCCBOI", sans-serif;
+  color: rgb(34, 13, 78);
+  font-weight: 500;
+  border-bottom: 2px solid rgb(34, 13, 78);
+}
+
+#sectionTwo{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#sectionTwo .containerSecond{
+    width: 90%;
+    display: flex;
+ flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+ 
+
+   
+}
+#sectionTwo .containerSecond h3{
+    font-size: 24px;
+    font-family: "THICCCBOI", sans-serif;
+    color:  rgb(52, 63, 82);
+    font-weight: 700;
+    line-height:30px;
+   
+   
+  
+}
+#sectionTwo .containerSecond p{
+    font-size: 18px;
+    font-family: "THICCCBOI", sans-serif;
+    color:  rgb(79, 83, 90);
+    font-weight: 100;
+    line-height:31px;
+  
+}
+#sectionThree{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerThird{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerThird .text{
+width: 45%;
+display: flex;
+flex-direction: column;
+gap: 25px;
+font-size: 24px;
+font-family: "THICCCBOI", sans-serif;
+color:
+rgb(52, 63, 82);
+font-weight: 700;
+font-style: normal;
+
+
+}
+.containerThird .text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.containerThird .text ul li{
+list-style: none;
+display: flex;
+gap: 5px;
+}
+ .icon{
+border-radius: 50%;
+background-color:#B8D987;
+width: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 11px;
+color: white;
+}
+.containerThird .text ul li span{
+    font-size: 17px;
+    font-family: "THICCCBOI", sans-serif;
+    color:  rgb(79, 83, 90);
+    font-weight: 100;
+    font-style: normal;
+}
+#sectionFour{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFourth{
+    width: 90%;
+    display: flex;
+ flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+}
+.containerFourth h4{
+    font-size: 32px;
+    font-family: "THICCCBOI", sans-serif;
+    color:  rgb(52, 63, 82);
+    font-weight: 700;
+    line-height:40px;
+}
+.containerFourth p{
+    font-size: 17px;
+    font-family: "THICCCBOI", sans-serif;
+    color:   rgb(33, 38, 48);
+    font-weight: 100;
+    line-height:31px;
+}
+#sectionFive{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFifth{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+     flex-direction: column;
+     gap: 25px;
+} 
+.containerFifth h2{
+    font-size: 32px;
+    font-family: "THICCCBOI", sans-serif;
+    color: #343F52;
+    font-weight: 700;
+    font-style: normal;
+}
+.containerFifth p{
+    font-size: 17px;
+    font-family: "THICCCBOI", sans-serif;
+    color: rgb(33, 38, 48);
+    font-weight: 100;
+    font-style: normal;
+}
+  
+    
+    .containerFifth  ul{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .containerFifth  ul li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    }
+     .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+
+    .icons i{
+        padding: 3px 5px;
+    border-radius: 50%;
+    background-color:#B8D987;
+    font-size: 13px;
+    color: white;
+    }
+    .containerFifth  ul li span{
+        font-size: 17px;
+        font-family: "THICCCBOI", sans-serif;
+        color:  rgb(79, 83, 90);
+        font-weight: 100;
+        font-style: normal;
+    }
+    #sectionSix{
+        width: 100%;
+        margin: 40px 0;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .containerSixth{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+         flex-direction: column;
+         gap: 25px;
+    }
+    .containerSixth .div{
+        width: 100%;
+        height: 50px;
+        border: .5px solid rgb(228, 223, 223);
+        gap: 15px;
+        padding: 5px;
+        align-items: center;
+        display: flex;
+    }
+    .containerSixth .div p{
+        padding-left: 10px;
+        font-size: 15px;
+        font-family: "THICCCBOI", sans-serif;
+        color: #343F52;
+        font-weight: 700;
+        font-style: normal;
+    }
+    #sectionSeven{
+        width: 100%;
+        margin: 40px 0;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .containerSeventh{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+       
+    }
+    .containerSeventh .varients{
+        width: 95%;
+        background-color: #D0D3D5;
+  
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;  
+        gap: 25px;
+    }
+    .containerSeventh .varients .first{
+        width: 30%;
+        background-color:white;
+        height: 60px;
+        border-radius: 11px;
+    }
+    .containerSeventh .varients .second{
+        width: 30%;
+        background-color: #343F52;
+        height: 60px;
+        border-radius: 11px;
+    }
+    .containerSeventh .varients .third{
+        width: 30%;
+        background-color:#343F52 ;
+        height: 60px; 
+        border-radius: 11px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    .containerSeventh .varients h5{
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: "THICCCBOI", sans-serif;
+        color: white;
+        font-weight: 500;
+        font-style: normal;
+
+        
+    }
+    .containerSeventh .varients div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+    .containerSeventh .varients .first .h{
+        color: #F78F7C;
+    }
+   
+
+#sectionEight{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+   
+}
+.containerEighth{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   flex-wrap: wrap;
+    gap: 30px;
+}
+.containerEighth div{
+    width: 45%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.331);
+}
+.containerEighth h6{
+    font-size: 20px;
+    font-family: "THICCCBOI", sans-serif;
+    color:     rgb(37, 45, 108);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.containerEighth p{
+    font-size: 18px;
+    font-family: "THICCCBOI", sans-serif;
+    color:  rgb(79, 83, 90);
+    font-weight: 100;
+    font-style: normal;
+}
+.containerEighth button{
+    border: 2px solid #252D6C;
+    border-radius: 15px;
+    width: 22%;
+    height: 30px;
+    color: #F78B77;
+    margin-bottom: 35px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sectionNine{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.containerNinth{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B3A56;
+  
+
+}
+.containerNinth .end{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+}
+.containerNinth .imageTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%; 
+}
+.containerNinth .end h1{
+    font-size: 34px;
+    font-family: "THICCCBOI", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+.containerNinth .end p{
+    font-size: 17px;
+    font-family: "THICCCBOI", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+}
+.containerNinth .end .lineTwo{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lineTwo button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lineTwo span{
+    border-bottom: 2px solid white;
+}
